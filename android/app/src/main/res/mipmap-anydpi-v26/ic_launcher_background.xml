@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <path name="ic_launcher_background">
+        <path-data android:fillColor="#4CAF50" />
+    </path>
+</resources>

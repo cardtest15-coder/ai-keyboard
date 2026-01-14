@@ -1,0 +1,19 @@
+{
+  "name": "ai-keyboard",
+  "version": "1.0.0",
+  "description": "Full Stack AI Keyboard Application for Android",
+  "scripts": {
+    "backend:start": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:install": "cd backend && npm install",
+    "backend:test": "cd backend && npm test",
+    "android:install": "cd android && gradlew.bat installDebug",
+    "android:clean": "cd android && gradlew.bat clean",
+    "android:build": "cd android && gradlew.bat assembleDebug",
+    "start": "node scripts/start.js",
+    "install-all": "npm run backend:install"
+  },
+  "keywords": ["ai", "keyboard", "android", "mobile", "full-stack"],
+  "author": "AI Keyboard Team",
+  "license": "MIT"
+}
